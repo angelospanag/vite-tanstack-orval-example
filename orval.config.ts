@@ -5,7 +5,7 @@ export default defineConfig({
     output: {
       // httpClient: "fetch",
       // client: "fetch",
-      client: 'react-query',
+      client: "react-query",
       target: "./src/client.ts",
       schemas: "./src/model",
       baseUrl: "https://petstore3.swagger.io/api/v3",
